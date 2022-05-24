@@ -15,7 +15,7 @@
   flex-grow: 1;
   flex-shrink: 0;
   margin: 0 20px 20px 20px;
-  background: white;
+  background: #cbbd08;
   position: relative;
 }
 .card-image {
@@ -41,8 +41,9 @@
   align-items: center;
 }
 .comments-item-delete {
-  padding: 5px 15px 5px 5px;
+  padding: 5px 10px 5px 5px;
   cursor: pointer;
+  background-color: #b9b138;/**/
 }
 .button-controls {
   display: flex;
@@ -57,7 +58,7 @@
   margin: 0 5px;
 }
 button {
-  border: 2px solid #f2f2f2;
+  border: 2px solid #d7cccc;
   background: none;
   flex-basis: 48%;
   display: inline-block;
@@ -65,8 +66,9 @@ button {
   text-decoration: none;
   padding: 5px;
   text-align: center;
-  font-size: 15px;
-  color: #125688;
+  font-size: 18px;
+  font-weight: 600;
+  color: black;
   transition: all 0.2s;
   box-sizing: padding-box;
 }
@@ -78,8 +80,11 @@ input {
   width: 100%;
   border: 0;
   padding: 10px 0;
+  padding-left: 7px;
   border-bottom: 1px solid #f2f2f2;
   outline: none;
+  background-color: #353427;
+  color: #d7cccc;
   resize: vertical;
 }
 .loader-styles {
